@@ -1,8 +1,6 @@
 import React from 'react';
 
-// eslint-disable-next-line
 export default class Calculator extends React.Component {
-  // eslint-disable-next-line
   constructor(props) {
     super(props);
   }
