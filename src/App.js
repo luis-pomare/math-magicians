@@ -5,10 +5,12 @@ import Calculator from './components/calculator';
 import Home from './components/home';
 import Quote from './components/quote';
 
+import Header from './components/header';
+
 function App() {
   return (
     <BrowserRouter>
-      <h1>Math Magicians</h1>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/calculator" element={<Calculator />} />
