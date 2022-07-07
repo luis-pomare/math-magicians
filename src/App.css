@@ -34,3 +34,37 @@
   grid-column-start: 1;
   grid-column-end: 3;
 }
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  padding: 8px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(24, 149, 245);
+}
+
+#calculator {
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+p,
+h3 {
+  padding: 0 25px 0 25px;
+}
+
+#main-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 70px;
+}
