@@ -11,16 +11,6 @@
 - React
 - Node
 
-## App screenshot
-
-### Desktop
-
-[<img src="app_screenshot.png">](Coming soon!)
-
-### Mobile
-
-[<img src="app_screenshot_mobile.png">](Coming soon!)
-
 ## Getting Started
 
 To run this repo in your local machine, you must clone it in your terminal (Or git bash) by using the command **`git clone`** plus the \*SSh key\*\*\* that is in the code tag above. Once you have it on your local machine you must run the `npm start` command to open the the local server.
