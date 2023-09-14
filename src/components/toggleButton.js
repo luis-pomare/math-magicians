@@ -1,14 +1,13 @@
 import { useState } from 'react';
 
 export default function ToggleButton() {
-  let [buttonState, setButtonState] = useState('Off')
+  let [buttonState, setButtonState] = useState(true)
 
   function handleButon() {
-    if (buttonState === 'Off') setButtonState('On');
-    if (buttonState === 'On') setButtonState('Off');
+    setButtonState((previusButtonState) => !previusButtonState);
   }
 
   return (
-    <button onClick={handleButon}>{buttonState}</button>
+    <button onClick={handleButon}>{buttonState ? 'ON' : 'Off'}</button>
   )
 }
