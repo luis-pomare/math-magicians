@@ -1,9 +1,8 @@
 import React from 'react';
-import ToggleButton from './toggleButton';
 
 const Home = () => (
   <>
-    <h2><ToggleButton /></h2>
+    <h2>Welcome to our page</h2>
     <p>
       &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
