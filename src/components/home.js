@@ -1,8 +1,10 @@
 import React from 'react';
 
+
+
 const Home = () => (
   <>
-    <h2>Welcome to our page</h2>
+    <h2>page</h2>
     <p>
       &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
